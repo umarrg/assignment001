@@ -6,6 +6,7 @@ import Image from "next/image";
 import piechart from "../assets/images/Loader.svg";
 import blueImg from "../assets/images/blue.svg";
 import brownImg from "../assets/images/brown.svg";
+import done from "../assets/images/done.svg";
 import localFont from 'next/font/local'
 
 
@@ -61,7 +62,7 @@ const events = [
   },
   {
     airdropColor: "#28458F",
-    airdropIcon: piechart,
+    airdropIcon: done,
     chipText: "It’s Raining",
     date: "2022-09-13 08:57:15",
     title: "Water",

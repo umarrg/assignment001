@@ -10,10 +10,10 @@ interface CardItemProps {
 }
 export const OverViewCard = ({ items, title }: CardItemProps) => {
   return (
-    <div className="bg-white rounded-lg p-4 w-[340px] rounded-lg shadow-sm border border-grey mb-4 ">
+    <div className="bg-white rounded-lg p-4 w-[340px] rounded-lg shadow-sm border border-grey mb-6 ">
       {title && <h3 className="my-2 font-medium">{title}</h3>}
       {items.map((item, idx) => (
-        <div className="flex justify-between flex-grow items-center w-full">
+        <div className="flex justify-between flex-grow items-center w-full my-2">
           <h4 className="font-light" key={idx}>
             {item.name}
           </h4>
